@@ -17,6 +17,7 @@ git clone --depth=1 https://github.com/jamebal/jmal-cloud-server.git
 cd jmal-cloud-server
 ./jc.sh install
 ```
+
 然後 clone 這個 repo
 再把js 目錄複製到上面clone 下來的jmal-cloud-server 目錄內的 docker/www/dist/static/
 覆蓋掉原本的 js 檔案就可以，當然，建議先備份原本的 js
