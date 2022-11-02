@@ -12,7 +12,7 @@ https://github.com/jamebal/jmal-cloud-view
 用法很簡單，只要先依照 https://github.com/jamebal/jmal-cloud-view 的說明
 ```````
 ```
-###clone jma-cloud-view 原始程式
+### clone jma-cloud-view 原始程式
 git clone --depth=1 https://github.com/jamebal/jmal-cloud-server.git
 cd jmal-cloud-server
 ./jc.sh install
