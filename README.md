@@ -4,8 +4,9 @@
 
 因為原本的架構不支援多國語系，所以沒辦法用PR 送回給原作者 所以新建立了這個 repo
 
-用法很簡單，只要先依照 https://github.com/jamebal/jmal-cloud-view 的說明``
+用法很簡單，只要先依照 https://github.com/jamebal/jmal-cloud-view 的說明
 
+```
 ### clone jma-cloud-view 原始程式
 git clone --depth=1 https://github.com/jamebal/jmal-cloud-server.git
 cd jmal-cloud-server
@@ -23,4 +24,4 @@ git clone https://github.com/changchichung/jmal-cloud-zh_TW
 cp -R jmal-cloud-zh_TW/js docker/www/dist/static/
 ```
 
-接著 ```docker-compose down && docker-compose up -d ```重啟 docker 就可以了
+接著 ```docker-compose down && docker-compose up -d ``` 重啟 docker 就可以了
